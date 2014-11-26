@@ -1,12 +1,71 @@
 body {
-	width:900px;
+	width:920px;
 	margin: 0 auto;
 	background-color: black;
 	color: white;
-	margin-top: 10px;
+	margin-top: 30px;
+	font-family: "Palatino Linotype";
 }
 
 header {
-	font-size: 36;
-
+	font-size: 72px;
+	border-bottom-color: white;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
 }
+
+.nav-bar .nav-item {
+	display: inline;
+	font-size: 30px;
+	padding-right: 110px;
+	padding-left: 110px;
+	text-align: center;
+}
+
+.nav-bar {
+	border-bottom-color: white;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	margin-top: 4px;
+	padding-bottom: 4px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: white;
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+.left {
+	float: left;
+	width: 300px;
+	margin: 50px;
+	text-align: center;
+}
+
+.right {
+	float: right;
+	width: 300px;
+	margin: 20px;
+}
+
+IMG.portrait {
+	float: right;
+	margin: 15px;
+}
+
+.text {
+	display: inline-block;
+	width: 250px;
+	text-align: left;
+	margin-left:75px;
+	margin-top: 40px;
+}
+
