@@ -18,8 +18,8 @@ header {
 
 .nav-bar .nav-item {
 	display: inline;
-	font-size: 26px;
-	line-height:28px;
+	font-size: 22px;
+	line-height:22px;
 	text-align: center;
 	letter-spacing: 3px;
 	margin: 0px;
@@ -56,7 +56,7 @@ a.show {
 	color: #686868;
 }
 .here {
-	background-color: #FFFFCC;
+	background-color: #FFCCFF;
 }
 
 .left {
@@ -74,7 +74,9 @@ a.show {
 IMG.portrait {
 	float: left;
 	margin-left: 60px;
-	margin-top: 10px;
+	margin-top: 5px;
+	width: 70%;
+	height: 70%;
 }
 
 .text {
